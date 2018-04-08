@@ -1,0 +1,43 @@
+body {
+
+/*background-image: url("https://images.unsplash.com/photo-1428279148693-1cf2163ed67d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f83de557e71fadca0deda42380d86801&auto=format&fit=crop&w=3900&q=80");
+*/background-image: url("https://images.unsplash.com/photo-1507745512299-8bd0e0b3380f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9575a8abd6bfb0ed53d7ad7601bff2dc&auto=format&fit=crop&w=1952&q=80");
+background-size: cover;
+background-position: center; 
+/*padding-top: 70px;*/
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Coustard', serif;
+  color: white;
+}
+
+
+#nav-items {
+
+  background-color: #436588;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+#logo {
+  color: white;
+  font-size: 25px
+  
+}
+
+/* On Tabs & Desktops */
+@media screen and (min-width: 768px) {
+  .navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+}
+
