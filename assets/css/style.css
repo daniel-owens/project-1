@@ -104,9 +104,9 @@ html {
 }
 
 #map{
-  position: absolute;
+  /* position: absolute;
   top: 150px;
-  left: 600px;
+  left: 600px; */
   opacity: 0.5;
   padding-top: 500px;
   height: 450px;
